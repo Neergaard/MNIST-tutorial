@@ -1,0 +1,5 @@
+src/MNIST_data/t10k-images-idx3-ubyte.gz
+src/MNIST_data/t10k-labels-idx1-ubyte.gz
+src/MNIST_data/train-images-idx3-ubyte.gz
+src/MNIST_data/train-images/train-images.idx3-ubyte
+src/MNIST_data/train-labels-idx1-ubyte.gz
