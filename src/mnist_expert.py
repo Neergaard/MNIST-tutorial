@@ -1,12 +1,12 @@
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import tensorflow as tf
-import seaborn as sns
+# import seaborn as sns
 import time
 from tensorflow.examples.tutorials.mnist import input_data
 
 
-sns.set(color_codes=True)
+# sns.set(color_codes=True)
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 sess = tf.InteractiveSession()
 
@@ -101,5 +101,5 @@ for i in range(5000):
 t2 = time.time()
 print("Elapsed time: %g seconds" % (t2 - t1))
 print("Test accuracy %g" % accuracy.eval(feed_dict={x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}))
-plt.plot(np.arange(0, 200, 1), acc_train, np.arange(0, 200, 1), acc_test)
-plt.show()
+# plt.plot(np.arange(0, 200, 1), acc_train, np.arange(0, 200, 1), acc_test)
+# plt.show()
